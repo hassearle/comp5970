@@ -1,0 +1,46 @@
+{
+  "_index": "logstash-s-6becb943-ae1b-4b05-9b13-f3fdf5b224b7-2019.02.27.06",
+  "_type": "activation_record",
+  "_id": "2ffa9c42-24aa-4c25-bb57-a14f3ef7ce05",
+  "_score": null,
+  "_source": {
+    "name_str": "alexa-watson",
+    "start_int": 1551292619301,
+    "kind_str": "nodejs:6",
+    "message": "{\"error\":{\"response\":{\"outputSpeech\":{\"text\":{\"message\":\"Cannot read property 'startsWith' of undefined\",\"name\":\"TypeError\",\"stack\":\"TypeError: Cannot read property 'startsWith' of undefined\\n    at initClients (/nodejsAction/dnrkGVSH/main.js:81:23)\\n    at verifyFromAlexa.then (/nodejsAction/dnrkGVSH/main.js:289:19)\\n    at process._tickCallback (internal/process/next_tick.js:109:7)\"},\"type\":\"PlainText\"},\"shouldEndSession\":true},\"version\":\"1.0\"}}",
+    "type": "activation_record",
+    "event_uuid": "2ffa9c42-24aa-4c25-bb57-a14f3ef7ce05",
+    "duration_int": 7,
+    "namespace_str": "kss0024@auburn.edu_dev",
+    "activationId_str": "3a8d0d4cb5964db78d0d4cb5965db764",
+    "subject_str": "kss0024@auburn.edu",
+    "ALCH_TENANT_ID": "6becb943-ae1b-4b05-9b13-f3fdf5b224b7",
+    "logmet_cluster": "topic8-elasticsearch_8",
+    "@timestamp": "2019-02-27T18:37:00.612Z",
+    "end_int": 1551292619308,
+    "response": {
+      "status_str": "application error",
+      "success_bool": false
+    },
+    "@version": "1",
+    "waitTime_int": 30,
+    "publish_bool": false,
+    "ALCH_ACCOUNT_ID_str": "",
+    "version_str": "0.0.2",
+    "limits": {
+      "concurrency_int": 1,
+      "timeout_int": 60000,
+      "memory_int": 256,
+      "logs_int": 10
+    },
+    "timestamp": "2019-02-27T18:37:00.004Z"
+  },
+  "fields": {
+    "@timestamp": [
+      1551292620612
+    ]
+  },
+  "sort": [
+    1551292620612
+  ]
+}
